@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "trytond-issue12900"
+authors = [{name = "Ningú", email = "47453810+n1ngu@users.noreply.github.com"}]
+version = "1.0.0"
+description = "See https://foss.heptapod.net/tryton/tryton/-/issues/12900"
+
+[project.entry-points."trytond.modules"]
+issue12900 = "issue12900"
+
+[tool.flit.module]
+name = "issue12900"
