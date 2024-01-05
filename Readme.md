@@ -1,1 +1,1 @@
-See https://foss.heptapod.net/tryton/tryton/-/issues/12900
+See https://foss.heptapod.net/tryton/tryton/-/issues/12884
